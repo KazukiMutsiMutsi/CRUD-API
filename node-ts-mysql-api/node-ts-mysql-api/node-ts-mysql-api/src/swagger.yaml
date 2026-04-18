@@ -259,3 +259,5 @@ paths:
       responses:
         '200':
           description: Account deleted
+
+        //swagger.yaml

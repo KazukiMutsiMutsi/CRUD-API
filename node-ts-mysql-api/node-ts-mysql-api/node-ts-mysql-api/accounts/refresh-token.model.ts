@@ -23,3 +23,4 @@ export default function refreshTokenModel(sequelize: any) {
 
     return sequelize.define('refreshToken', attributes, options);
 }
+//refresh-tokens.model.ts

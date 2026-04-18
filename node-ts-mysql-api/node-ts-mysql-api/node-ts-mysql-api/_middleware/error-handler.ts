@@ -14,3 +14,5 @@ export default function errorHandler(err: any, req: Request, res: Response, next
             return res.status(500).json({ message: err.message });
     }
 }
+
+//error-handler.ts

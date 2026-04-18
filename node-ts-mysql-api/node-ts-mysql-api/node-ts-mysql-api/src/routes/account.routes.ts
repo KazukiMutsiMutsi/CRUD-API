@@ -25,3 +25,4 @@ router.put('/:id', authorize(), controller.update);
 router.delete('/:id', authorize(), controller.deleteAccount);
 
 export default router;
+//account.routes

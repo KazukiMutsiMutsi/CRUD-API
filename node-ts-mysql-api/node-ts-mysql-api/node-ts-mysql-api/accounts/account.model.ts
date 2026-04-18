@@ -30,3 +30,4 @@ export default function accountModel(sequelize: any) {
 
     return sequelize.define('account', attributes, options);
 }
+//account.models.ts

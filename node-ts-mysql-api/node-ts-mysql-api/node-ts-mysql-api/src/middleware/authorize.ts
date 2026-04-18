@@ -36,3 +36,4 @@ export function authorize(roles: Role[] = []) {
     }
   };
 }
+//authorize.ts

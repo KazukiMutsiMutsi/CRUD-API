@@ -25,3 +25,4 @@ app.use('/accounts', accountRoutes);
 app.use(errorHandler);
 
 export default app;
+//app.ts

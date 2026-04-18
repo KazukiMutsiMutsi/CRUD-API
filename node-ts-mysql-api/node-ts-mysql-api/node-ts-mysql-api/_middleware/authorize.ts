@@ -30,3 +30,5 @@ export default function authorize(roles: any = []) {
         }
     ];
 }
+
+//authorize.ts

@@ -153,3 +153,5 @@ export async function deleteAccount(req: AuthRequest, res: Response, next: NextF
     next(err);
   }
 }
+
+//accunt.controller.ts
