@@ -17,7 +17,7 @@ export function authorize(roles: Role[] = []) {
 
     const token = authHeader.split(' ')[1];
     try {
-      const decoded = jwt.verify(token, config.jwt.secret) as { sub: number };
+      const decoded = jwt.verify(token, config.jwt.secret) as unknown as { sub: number };
       const account = await Account.findByPk(decoded.sub);
       if (!account) {
         res.status(401).json({ message: 'Unauthorized' });
